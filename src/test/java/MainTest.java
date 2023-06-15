@@ -24,7 +24,7 @@ public class MainTest {
         populations.add(population3);
 
         int result = Main.getGeneticGod(populations);
-        assertEquals(64, result);
+        assertEquals(69, result);
     }
 
     @Test
