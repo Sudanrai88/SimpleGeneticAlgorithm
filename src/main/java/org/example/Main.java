@@ -9,10 +9,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        //A simple Genetic algorithm, that chooses the Greatest overall Number. There will be "20 genes" that are initialised randomly from 1 to 20.
-        //We shall do a Population of 6, made up of 8 "genetic" information. Population and Chromosome here go hand in hand?
-        //We want the algorithm to take the 3 highest SUM of genetic info from the 6 population. We will then do a chromosome crossover between the highest parents and add a mutation which selects randomly from initial "gene" cap (1-20).
-        //Run from Evaluate until termination criteria is met ~100 runs or maxSUM of 160 is reached (Goal).
 
         //Initialization
         int maxPopulation = 6;
